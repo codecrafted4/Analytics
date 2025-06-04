@@ -1,0 +1,144 @@
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_m_CDW_UAS_F_AGG_DATA] at [Mon May 30 17:02:16 2022].
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [UNIVERSITY_ANALYTICS_SYSTEM]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [w_CDW_UAS_AGG_RESULT] Run Instance Name: [] Run Id: [46]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: m_CDW_UAS_F_AGG_DATA [version CheckedOut].
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_m_CDW_UAS_F_AGG_DATA] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0610].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2022-05-30 17:02:16 : INFO : (4716 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : DBG_21694 : AGGTRANS Partition [0]: Index cache size = [178956970], Data cache size = [357913940]
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [AGGTRANS] from [178956970] to [178959616].
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [AGGTRANS] from [357913940] to [357914408].
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7029 : Aggregate Information: Creating New Index and Data Files
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7034 : Aggregate Information: Index file is [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.idx]
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7035 : Aggregate Information: Data file is [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.dat]
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_m_CDW_UAS_F_AGG_DATA]
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Mon May 30 17:02:16 2022)
+2022-05-30 17:02:16 : INFO : (4716 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2022-05-30 17:02:16 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Mon May 30 17:02:16 2022)
+2022-05-30 17:02:16 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2022-05-30 17:02:16 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 1219648 bytes and Block size is 65536 bytes.
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-05-30 17:02:16 : INFO : (4716 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2022-05-30 17:02:16 : INFO : (4716 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [7].
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8146 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [ON]
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8106 : Warning! Bulk Mode session - recovery is not guaranteed.
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table CDW_UAS_F_AGG_DATA :SQL INSERT statement:
+INSERT INTO CDW_UAS_F_AGG_DATA(CDW_RESULT_AGG_DSET_KEY,COLLEGE_CODE,COLLEGE_NAME,COURSE_CODE,COURSE_NAME,TOTAL_PASS,MAXIMUM_MARK,CREATED_DATE)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8020 : No column marked as primary key for table [CDW_UAS_F_AGG_DATA]. UPDATEs Not Supported.
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [CDW_UAS_F_AGG_DATA]
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon May 30 17:02:16 2022
+
+Target tables:
+
+     CDW_UAS_F_AGG_DATA
+
+
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4029 : SQ Instance [SQ_CDW_UAS_F_RESULT] User specified SQL Query [SELECT CDW_UAS_F_RESULT.RESULT_F_COLLEGE_CODE, CDW_UAS_F_RESULT.RESULT_F_COLLEGE_NAME, CDW_UAS_F_RESULT.RESULT_F_COURSE_CODE, CDW_UAS_F_RESULT.RESULT_F_COURSE_NAME, CDW_UAS_F_RESULT.RESULT_F_FACULTY_NO, CDW_UAS_F_RESULT.RESULT_MARKS, CDW_UAS_F_RESULT.RESULT_GRADE 
+FROM
+ CDW_UAS_F_RESULT
+WHERE EXTRACT(MONTH FROM CDW_UAS_F_RESULT.RESULT_F_PERIOD_KEY)=5]
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon May 30 17:02:16 2022)
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon May 30 17:02:16 2022)
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [2] rows, read [0] error rows for source table [CDW_UAS_F_RESULT] instance name [CDW_UAS_F_RESULT]
+2022-05-30 17:02:16 : INFO : (4716 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-05-30 17:02:16 : INFO : (4716 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_CDW_UAS_F_RESULT]. Total errors [0] 
+2022-05-30 17:02:16 : INFO : (4716 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : TE_7032 : The B-Tree being managed in files
+C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.dat for Data and
+
+C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.idx for Index has:
+	Index Size:	21
+	Row Size:	112
+	Order:		100
+	Minimum Order:	50
+	Height:		1
+	Entries:	1
+	IndexPageSize:	3296
+	IndexPages:	54296
+	DataPageSize:	568
+	DataPages:	630131
+
+2022-05-30 17:02:16 : INFO : (4716 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [AGGTRANS]. Total errors [0] 
+2022-05-30 17:02:16 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [CDW_UAS_F_AGG_DATA] at: Mon May 30 17:02:16 2022
+2022-05-30 17:02:18 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [CDW_UAS_F_AGG_DATA] at: Mon May 30 17:02:17 2022
+2022-05-30 17:02:18 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8141 : 
+Commit on end-of-data  Mon May 30 17:02:17 2022
+===================================================
+
+WRT_8036 Target: CDW_UAS_F_AGG_DATA (Instance Name: [CDW_UAS_F_AGG_DATA])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+2022-05-30 17:02:18 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Mon May 30 17:02:17 2022
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: CDW_UAS_F_AGG_DATA (Instance Name: [CDW_UAS_F_AGG_DATA])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+
+2022-05-30 17:02:18 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2022-05-30 17:02:18 : INFO : (4716 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2022-05-30 17:02:18 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_CDW_UAS_F_RESULT] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_CDW_UAS_F_RESULT] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [AGGTRANS] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [CDW_UAS_F_AGG_DATA] has completed.
+	Total Run Time = [1.694016] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+2022-05-30 17:02:18 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1791 : The index cache size that would hold [1] aggregate groups of input rows for [AGGTRANS], in memory, is [3296] bytes
+2022-05-30 17:02:18 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1790 : The data cache size that would hold [1] aggregate groups of input rows for [AGGTRANS], in memory, is [568] bytes
+2022-05-30 17:02:18 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Mon May 30 17:02:18 2022)
+2022-05-30 17:02:18 : INFO : (4716 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [9].
+2022-05-30 17:02:18 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Mon May 30 17:02:18 2022)
+2022-05-30 17:02:18 : INFO : (4716 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2022-05-30 17:02:18 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.idx] for transformation [AGGTRANS].
+2022-05-30 17:02:18 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG21_3_0_46.dat] for transformation [AGGTRANS].
+2022-05-30 17:02:19 : INFO : (4716 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_CDW_UAS_F_RESULT] (Instance Name: [SQ_CDW_UAS_F_RESULT])
+	 Output Rows [2], Affected Rows [2], Applied Rows [2], Rejected Rows [0]
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [CDW_UAS_F_AGG_DATA] (Instance Name: [CDW_UAS_F_AGG_DATA])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2022-05-30 17:02:19 : INFO : (4716 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_m_CDW_UAS_F_AGG_DATA] completed at [Mon May 30 17:02:19 2022].
